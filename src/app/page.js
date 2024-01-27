@@ -29,6 +29,7 @@ export default function Home() {
           </div>
           <div className='flex bg-black w-1/2 h-screen relative'>
             <Image
+              unoptimized
               fill
               src={'/landing.png'}
               alt="Elderly Care"
@@ -57,6 +58,7 @@ export default function Home() {
             <div className='flex mt-10 flex-row w-full justify-center items-center'>
               <div className='flex flex-col w-1/2 pr-10 justify-center items-end'>
                 <Image
+                  unoptimized
                   className='rounded-lg shadow-lg'
                   src={'/yoga.png'}
                   width={200}
@@ -71,6 +73,7 @@ export default function Home() {
             <div className='flex flex-row mt-5 w-full justify-center items-center'>
               <div className='flex flex-col w-1/2 pr-10 justify-center items-end'>
                 <Image
+                  unoptimized
                   className='rounded-lg shadow-lg'
                   src={'/mobile.png'}
                   width={200}
@@ -85,6 +88,7 @@ export default function Home() {
             <div className='flex flex-row mt-5 w-full justify-center items-center'>
               <div className='flex flex-col w-1/2 pr-10 justify-center items-end'>
                 <Image
+                  unoptimized
                   className='rounded-lg shadow-lg'
                   src={'/elderly.png'}
                   width={200}
@@ -103,6 +107,7 @@ export default function Home() {
           <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+919881927789">
             <div className='flex justify-center w-64 mt-10 pt-2 pb-2 pl-2 pr-2 shadow-xl bg-black text-white rounded-lg'>
               <Image
+                unoptimized
                 className='rounded-lg shadow-lg mr-2'
                 src={'/whatsapp.webp'}
                 width={25}
@@ -115,6 +120,7 @@ export default function Home() {
           <div className='flex flex-row justify-center items-center mt-10 gap-5 w-128 mt-10'> 
             <a target="_blank" rel="noopener noreferrer" href="https://chat.whatsapp.com/FkyklO9Urlk8O67Ioa2mcq">
               <Image
+                unoptimized
                 className='rounded-lg mr-5'
                 src={'/whatsapp.webp'}
                 width={50}
@@ -123,6 +129,7 @@ export default function Home() {
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ziya.life">
               <Image
+                unoptimized
                 className='mr-5'
                 src={'/facebook.webp'}
                 width={50}
@@ -131,6 +138,7 @@ export default function Home() {
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_ziya.life/">
               <Image
+                unoptimized
                 className='bg-white mr-5'
                 src={'/instagram.png'}
                 width={40}
@@ -140,6 +148,7 @@ export default function Home() {
             <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ziya_life">
               <div className='bg-white'>
                 <Image
+                  unoptimized
                   src={'/youtube.png'}
                   width={50}
                   height={50}
