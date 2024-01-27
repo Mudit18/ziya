@@ -17,7 +17,7 @@ export default function Home() {
             <Image
               unoptimized
               className='rounded-lg shadow-lg'
-              src={'/ziya/logo.png'}
+              src={'/logo.png'}
               width={100}
               height={200}
             />
@@ -31,7 +31,7 @@ export default function Home() {
             <Image
               unoptimized
               fill
-              src={'/ziya/landing.png'}
+              src={'/landing.png'}
               alt="Elderly Care"
             />
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
                 <Image
                   unoptimized
                   className='rounded-lg shadow-lg'
-                  src={'/ziya/yoga.png'}
+                  src={'/yoga.png'}
                   width={200}
                   height={200}
                 />
@@ -75,7 +75,7 @@ export default function Home() {
                 <Image
                   unoptimized
                   className='rounded-lg shadow-lg'
-                  src={'/ziya/mobile.png'}
+                  src={'/mobile.png'}
                   width={200}
                   height={200}
                 />
@@ -90,7 +90,7 @@ export default function Home() {
                 <Image
                   unoptimized
                   className='rounded-lg shadow-lg'
-                  src={'/ziya/elderly.png'}
+                  src={'/elderly.png'}
                   width={200}
                   height={200}
                 />
@@ -109,7 +109,7 @@ export default function Home() {
               <Image
                 unoptimized
                 className='rounded-lg shadow-lg mr-2'
-                src={'/ziya/whatsapp.webp'}
+                src={'/whatsapp.webp'}
                 width={25}
                 height={25}
               />
@@ -122,7 +122,7 @@ export default function Home() {
               <Image
                 unoptimized
                 className='rounded-lg mr-5'
-                src={'/ziya/whatsapp.webp'}
+                src={'/whatsapp.webp'}
                 width={50}
                 height={50}
               />
@@ -131,7 +131,7 @@ export default function Home() {
               <Image
                 unoptimized
                 className='mr-5'
-                src={'/ziya/facebook.webp'}
+                src={'/facebook.webp'}
                 width={50}
                 height={50}
               />
@@ -140,7 +140,7 @@ export default function Home() {
               <Image
                 unoptimized
                 className='bg-white mr-5'
-                src={'/ziya/instagram.png'}
+                src={'/instagram.png'}
                 width={40}
                 height={40}
               />
@@ -149,7 +149,7 @@ export default function Home() {
               <div className='bg-white'>
                 <Image
                   unoptimized
-                  src={'/ziya/youtube.png'}
+                  src={'/youtube.png'}
                   width={50}
                   height={50}
                 />
