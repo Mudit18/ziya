@@ -54,8 +54,8 @@ export default function Home() {
               <button className='mb-20 pt-2 pb-2 pl-10 pr-10 shadow-xl bg-black text-white rounded-lg'>Contact Us</button>
             </Link>
           </div>
-          <div className='flex flex-col h-screen w-3/4 justify-start items-start'>
-            <div className='flex mt-10 flex-row w-full justify-center items-center'>
+          <div className='flex flex-col h-screen w-3/4 justify-center items-start'>
+            <div className='flex flex-row w-full justify-center items-center'>
               <div className='flex flex-col w-1/2 pr-10 justify-center items-end'>
                 <Image
                   unoptimized
@@ -105,7 +105,7 @@ export default function Home() {
         <div id='contact' className='flex flex-col bg-white border-y border-black h-screen w-full justify-center items-center'>
           <div className='bg-white text-4xl pt-6 pb-5 pl-10 pr-10 font-extralight border border-black text-black'>CONTACT US</div>
           <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+919881927789">
-            <div className='flex justify-center w-64 mt-10 pt-2 pb-2 pl-2 pr-2 shadow-xl bg-black text-white rounded-lg'>
+            <div className='flex justify-center w-64 mt-10 pt-3 pb-3 pl-2 pr-2 shadow-xl bg-black text-white rounded-lg'>
               <Image
                 unoptimized
                 className='rounded-lg shadow-lg mr-2'
