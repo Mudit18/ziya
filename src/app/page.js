@@ -47,11 +47,9 @@ export default function Home() {
         </div>
         <div id='services' className='bg-white pt-5 pb-5 pr-20 flex flex-row h-screen w-full justify-center items-center'>
           <div className='bg-white ml-10 w-1/2 h-screen flex flex-col items-center justify-center'>
-            <div className='flex-grow flex flex-col items-center justify-center'>
-              <div className='text-4xl pt-3 pb-2 pl-10 pr-10 font-extralight border border-black text-black'>OUR SERVICES</div>
-            </div>
+            <div className='text-4xl pt-3 pb-2 pl-10 pr-10 font-extralight border border-black text-black'>OUR SERVICES</div>
             <Link href="#contact">
-              <button className='mb-20 pt-2 pb-2 pl-10 pr-10 shadow-xl bg-black text-white rounded-lg'>Contact Us</button>
+              <button className='mt-10 pt-2 pb-2 pl-10 pr-10 shadow-xl bg-black text-white rounded-lg'>Contact Us</button>
             </Link>
           </div>
           <div className='flex flex-col h-screen w-3/4 justify-center items-start'>
