@@ -15,6 +15,7 @@ export default function Home() {
         <div id='ziya' className='flex flex-row h-screen w-full justify-center items-center'>
           <div className='flex flex-col h-screen w-1/2 justify-center items-center'>
             <Image
+              unoptimized
               className='rounded-lg shadow-lg'
               src={'/logo.png'}
               width={100}
