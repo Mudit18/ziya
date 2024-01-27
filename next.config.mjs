@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/ziya",
-  output: "export",  // <=== enables static exports
+  output: "export",
   reactStrictMode: true,
 };
 
