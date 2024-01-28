@@ -38,8 +38,8 @@ export default function Home() {
         </div>
         <div id='about' className='bg-white border-y border-black flex flex-row h-screen w-full justify-center items-center'>
           <div className='flex flex-col h-screen w-full justify-center items-center'>
-            <div className='text-5xl pt-6 pb-5 pl-10 pr-10 font-extralight border border-black text-black'>ABOUT US</div>
-            <div className='text-center text-xl pt-10 pb-5 w-1/2 font-extralight text-black'><b>Ziya Life</b> is dedicated to enhancing the quality of life for elderly by providing a comprehensive and user-friendly tech community app that addresses the challenges of idle hours and isolation through a range of services, including a wellness hub, curated content, engaging events, curated travel, e-commerce experiences, support services, and real-life meetups.</div>
+            <div className='text-lg md:text-5xl pt-2 pb-2 md:pt-6 md:pb-5 pl-10 pr-10 font-extralight border border-black text-black'>ABOUT US</div>
+            <div className='text-center text-xl pt-10 pb-5 pl-5 pr-5 w-full md:w-1/2 font-extralight text-black'><b>Ziya Life</b> is dedicated to enhancing the quality of life for elderly by providing a comprehensive and user-friendly tech community app that addresses the challenges of idle hours and isolation through a range of services, including a wellness hub, curated content, engaging events, curated travel, e-commerce experiences, support services, and real-life meetups.</div>
             <Link href="#services">
               <button className='mt-10 pt-2 pb-2 pl-10 pr-10 shadow-xl bg-black text-white rounded-lg'>How do we do this?</button>
             </Link>
